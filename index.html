@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leong Zhi Cong - Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">LZC</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Button -->
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section home-section">
+            <div class="container">
+                <div class="home-content">
+                    <div class="profile-image">
+                        <img src="img/pic1.jpg" alt="Leong Zhi Cong" class="profile-photo"
+                            onerror="this.src='https://via.placeholder.com/300x300?text=Leong+Zhi+Cong'">
+                    </div>
+                    <div class="profile-text">
+                        <h1>LEONG ZHI CONG</h1>
+                        <h2>Fresh Graduate | Bachelor of Computer Science</h2>
+                        <p class="tagline">Web Developer | Mobile App Developer</p>
+                        <div class="home-buttons">
+                            <a href="#projects" class="btn primary-btn">View My Work</a>
+                            <a href="Leong_Zhi_Cong_Resume.pdf" class="btn secondary-btn" download>Download
+                                Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Fresh Computer Science graduate with a solid foundation in web development, system design,
+                            and basic IT support. Completed an internship as a Web Assistant, assisting in website
+                            updates, online business platforms, and basic hardware installation.</p>
+                        <p>Experienced in academic and project-based development including web applications, machine
+                            learning fundamentals, and system implementation. Seeking an entry-level IT or
+                            software-related position to apply technical skills and continue professional growth.</p>
+                    </div>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-graduation-cap"></i> Education:</span>
+                            <span class="info-value"> UTAR - Bachelor of Computer Science</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-phone"></i> Phone:</span>
+                            <span class="info-value">011-56293151</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label"><i class="fas fa-envelope"></i> Email:</span>
+                            <span class="info-value">bossleongzhicong@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Mobile Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">XML</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">OpenCV</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">Machine Learning</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-tag">Bahasa Melayu</span>
+                            <span class="skill-tag">Chinese</span>
+                            <span class="skill-tag">English (MUET 3.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+
+                <!-- Project Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="container">
+                <h2 class="section-title">Work Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Nov 2024 - Feb 2025</div>
+                        <div class="timeline-content">
+                            <h3>Web Assistant (Internship)</h3>
+                            <h4>PUSAT MULTIMEDIA CORNER SDN BHD</h4>
+                            <ul>
+                                <li>Assisted in updating and maintaining the company's official website content and
+                                    layout</li>
+                                <li>Enhanced website appearance and responsiveness using CSS styling</li>
+                                <li>Assisted senior staff with basic hardware installation and setup</li>
+                                <li>Provided general IT and technical support during daily operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-phone"></i>
+                            <h3>Phone</h3>
+                            <p><a href="tel:01156293151">011-56293151</a></p>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p><a href="mailto:bossleongzhicong@gmail.com">bossleongzhicong@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Leong Zhi Cong. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
